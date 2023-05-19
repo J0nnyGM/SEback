@@ -4,7 +4,7 @@ from service import Service
 from database import db
 import itertools
 
-generos_iniciales = ["accion", "aventura", "lucha", "mundo_abierto"]
+generos_iniciales = ["educativo", "aventura",]
 
 pregunta_base = "¿ Te gusta el genero: {} ?"
 
@@ -168,8 +168,7 @@ __all__ = ['SistemaExperto']
 
 # SOLO PARA HACER PRUEBAS DEL SISTEMA EXPERTO
 if __name__ == "__main__":
-    engine = SistemaExperto(*["accion", "aventura", "mitologia", "gestion"], accion="no", aventura="si",
-                            mitologia="no", gestion="si")
+    engine = SistemaExperto(*["educativo", "aventura"], educativo="no", aventura="si", medieval="no", piratas="si")
     engine.set_generos()
     result = engine.siguiente_pregunta()
     print(engine.recomendar_juegos(result["juego"]))

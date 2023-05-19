@@ -56,6 +56,7 @@ def juego_generos(juegos: tuple[dict], generos: tuple[dict]):
     for juego in juegos:
         with open(GET_GENEROS_PATH(juego.get("title"))) as juego_f:
             for row in juego_f.read().split("\n"):
+                print(row)
                 genero_value = row.split("=")
                 gen_result = next(filter(lambda g: g.get(
                     "name") == genero_value[0], generos))
