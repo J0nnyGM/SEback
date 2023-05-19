@@ -1,0 +1,5 @@
+accion=si
+aventura=no
+disparos=si
+militar=no
+medievales=si

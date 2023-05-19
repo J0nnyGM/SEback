@@ -1,0 +1,4 @@
+lucha=si
+infantil=si
+accion=no
+aventura=no

@@ -1,0 +1,4 @@
+accion=si
+aventura=si
+mundo_abierto=si
+infantil=si

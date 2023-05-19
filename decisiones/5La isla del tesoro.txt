@@ -1,0 +1,4 @@
+educativo=no
+aventura=si
+medieval=no
+piratas=si

@@ -1,0 +1,3 @@
+educativo=no
+aventura=si
+medieval=si
