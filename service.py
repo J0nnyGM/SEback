@@ -70,4 +70,4 @@ class Service:
 if __name__ == "__main__":
     from database import db
     s = Service(db)
-    print(s.consultar_generos_por_un_juego("Animal crossing")["aventura"])
+    print(s.consultar_generos_por_un_juego("Harry Potter")["aventura"])
