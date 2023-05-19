@@ -74,7 +74,7 @@
       <p>{{ juego_recomendado.descripcion }}</p>
     </section>
     <section class="game-gen">
-      <h4>Generos que contiene el juego:</h4>
+      <h4>Generos que contiene el libro:</h4>
       <ul>
         {% for gen in juego_recomendado.generos %}
         <li class="tag">{{ gen }}</li>
@@ -87,11 +87,11 @@
         ><h5>no se encontro sugerencias</h5></span
       >
       {% else %}
-      <h5>Juegos que te podrian gustar</h5>
+      <h5>Libros que te podrian gustar</h5>
       <ul>
         {% for sug in sugerencias %}
         <li>
-          titulo del juego: {{ sug.titulo }}, porcentaje de ajuste: {{
+          titulo del Libro: {{ sug.titulo }}, porcentaje de ajuste: {{
           sug.porcentaje }}
         </li>
         {% endfor %} {% if sugerencias|length < 3 %}

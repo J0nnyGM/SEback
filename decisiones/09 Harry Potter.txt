@@ -1,0 +1,6 @@
+educativo=no
+aventura=si
+medieval=no
+piratas=no
+horror=no
+infantil=no

@@ -1,7 +1,0 @@
-mundo_abierto=si
-vista_panoramica=no
-pixel_art=si
-gestion=si
-accion=no
-lucha=no
-aventura=no

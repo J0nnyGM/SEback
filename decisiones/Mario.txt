@@ -1,5 +1,0 @@
-accion=si
-aventura=si
-mundo_abierto=no
-prota_femenina=no
-plataformas=si

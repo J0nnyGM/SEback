@@ -1,0 +1,6 @@
+educativo=no
+aventura=no
+terror=si
+juvenil=no
+zombies=no
+misterio=si

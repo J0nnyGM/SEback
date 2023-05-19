@@ -1,5 +1,0 @@
-lucha=si
-aventura=no
-accion=no
-sangriento=no
-infantil=no

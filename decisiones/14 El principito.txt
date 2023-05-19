@@ -1,0 +1,4 @@
+educativo=no
+aventura=no
+terror=no
+infantil=si

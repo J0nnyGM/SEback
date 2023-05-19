@@ -1,9 +1,0 @@
-accion=si
-aventura=no
-disparos=si
-militar=no
-comedia=no
-primera_persona=no
-demonios=no
-historia=no
-asaltos=no
