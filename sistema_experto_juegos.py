@@ -4,7 +4,7 @@ from service import Service
 from database import db
 import itertools
 
-generos_iniciales = ["educativo", "aventura",]
+generos_iniciales = ["educativo", "aventura","terror","infantil","juvenil"]
 
 pregunta_base = "¿ Te gusta el genero: {} ?"
 

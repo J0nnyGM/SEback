@@ -1,2 +1,2 @@
 educativo=si
-habitos de estudio=si
+Habitos_de_estudio=si

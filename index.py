@@ -74,7 +74,7 @@ def preguntas():
     if respExp.get("err"):
         clean_answers()
         users_history[current_user] = {}
-        return render_template("juego_no_encontrado.html")
+        return render_template("otra.html")
     if "juego" in respExp:
         clean_answers()
         users_history[current_user] = {}

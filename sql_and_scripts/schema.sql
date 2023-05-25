@@ -1,4 +1,6 @@
-USE DATABASE movie_expert
+create DATABASE movie_expert;
+
+USE movie_expert
 
 CREATE TABLE `game` (
   `id` int PRIMARY KEY,

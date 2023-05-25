@@ -1,5 +1,4 @@
 educativo=no
 aventura=no
-terror=no
-infantil=no
+terror=si
 juvenil=si
